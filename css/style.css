@@ -1,3 +1,16 @@
+* {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    :root {
+        --font-1: Arial, Helvetica, sans-serif;
+        --creamy-white: #F5F5F2;
+        --dark-grey: #3A3244;
+        --main-green: #72C27C;
+        --white: #fff;
+    }
 
 body {
 	
