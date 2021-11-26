@@ -53,6 +53,8 @@ a {
 .logo a,
 .main-nav a {
 	padding: 10px 15px;
+	font-family: var(--font-1);
+	font-weight: bold;
 
 	text-align: center;
 	display: block;
@@ -65,7 +67,7 @@ a {
 
 .main-nav a:hover {
 	color: var(--white);
-	background-color: var(--dark-grey);
+	background-color: var(--main-green);
 	border-radius: var(--rounded);
 }
 
@@ -93,11 +95,13 @@ a {
 }
 .btn {
 	border-radius: var(--rounded);
+	border: 1;
 	width: 17rem;
 	padding: 0.5rem;
 	background-color: var(--white);
 	font-size: 20px;
 	font-family: var(--font-1);
+	box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.16);
 }
 
 .header {
@@ -114,4 +118,9 @@ footer {
 	background-color: var(--dark-grey);
 	display: flex;
 	justify-content: flex-end;
+}
+
+.footer-nav {
+	background-color: var(--dark-grey);
+	color: var(--white);
 }
