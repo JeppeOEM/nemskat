@@ -114,13 +114,34 @@ a {
 	justify-content: right;
 }
 
-footer {
-	background-color: var(--dark-grey);
+/*//FOOTER//*/
+
+.flex-footer{
 	display: flex;
-	justify-content: flex-end;
+	flex-direction: row-reverse;
+
 }
 
-.footer-nav {
+footer {
+	padding: 1em;
 	background-color: var(--dark-grey);
-	color: var(--white);
+
+}
+.footer-nav {
+
+	background-color: var(--dark-grey);
+	color: var(--white);  
+	flex:4;
+}
+.footer-some{
+
+flex:1;
+
+}
+
+	
+
+
+.logo-twitter, .logo-linkedin, .logo-youtube, .logo-facebook, .logo-instagram {
+	padding: 2px;
 }
