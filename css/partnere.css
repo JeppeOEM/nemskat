@@ -40,9 +40,35 @@
 	margin-right: auto;
 }
 
+<<<<<<< HEAD
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+
+	background-color: #f4f4f4;
+
+	flex-direction: row;
+	justify-content: right;
+}
+
+.nemlogo{
+	width: 275;
+}
+
+footer {
+	background-color: var(--dark-grey);
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-nav {
+	background-color: var(--dark-grey);
+	color: var(--white);
+=======
 .footer2{
 	background-color: #72C27C;
 	display: block;
 	text-align: center;
 	padding: 27px;
+>>>>>>> master
 }
