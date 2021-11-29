@@ -44,12 +44,17 @@ a {
 	font-size: 1.45em;
 }
 
+
+
 .main-nav {
 	margin-top: 5px;
 	display: flex;
 	justify-content: right;
+	align-items: center;
 
 }
+
+
 .logo a,
 .main-nav a {
 	padding: 10px 15px;
@@ -109,10 +114,25 @@ a {
 	padding-bottom: .5em;
 
 	background-color: #f4f4f4;
-
+	display: flex;
 	flex-direction: row;
-	justify-content: right;
+	justify-content: space-between;
+	
 }
+
+.nemlogo{
+	padding-left: 30px;
+	margin: 0;
+	align-self: center;
+	justify-content: left;
+
+
+}
+
+.link-p {
+	font-size: 27px;
+}
+
 
 footer {
 	background-color: var(--dark-grey);

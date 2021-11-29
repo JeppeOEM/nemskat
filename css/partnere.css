@@ -125,6 +125,10 @@ a {
 	justify-content: right;
 }
 
+.nemlogo{
+	width: 275;
+}
+
 footer {
 	background-color: var(--dark-grey);
 	display: flex;
