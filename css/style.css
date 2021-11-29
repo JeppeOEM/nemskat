@@ -106,6 +106,13 @@ a {
 	font-family: var(--font-1);
 	color: var(--dark-grey);
 	font-size: 50px;
+	margin-top: 10rem;
+}
+.h1-fradrag {
+	font-family: var(--font-1);
+	color: var(--dark-grey);
+	font-size: 50px;
+	margin-top: 10rem;
 }
 .scan-text {
 	width: 500px;
