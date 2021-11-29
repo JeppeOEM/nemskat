@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
     * {
         margin: 0px;
         padding: 0px;
@@ -203,3 +208,117 @@
         background-color: var(--dark-grey);
         color: var(--white);
     }
+:root {
+    --font-1: Arial, Helvetica, sans-serif;
+    --creamy-white: #F5F5F2;
+    --dark-grey: #3A3244;
+    --main-green: #72C27C;
+    --white: #fff;
+	--rounded: 36px;
+}
+
+body {
+	background-color: var(--creamy-white);
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: var(--creamy-white);
+}
+
+h2,
+h3,
+a {
+	color: #34495e;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+	display: flex;
+	justify-content: right;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	font-family: var(--font-1);
+	font-weight: bold;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: var(--dark-grey);
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: var(--white);
+	background-color: var(--main-green);
+	border-radius: var(--rounded);
+}
+
+.index-text {
+	padding-bottom: 20rem;
+	padding-left: 20rem;
+	padding-top: 20rem;
+	padding-right: 44rem;
+}
+
+.index-h1 {
+	font-size: 80px;
+	font-weight: bold;
+	font-family: var(--font-1);
+	color: var(--dark-grey);
+}
+
+.forskudsopgørelse {
+	color: var(--main-green);
+}
+
+.btn-container {
+	display: flex;
+	justify-content: space-between;
+}
+.btn {
+	border-radius: var(--rounded);
+	border: 1;
+	width: 17rem;
+	padding: 0.5rem;
+	background-color: var(--white);
+	font-size: 20px;
+	font-family: var(--font-1);
+	box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.16);
+}
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #f4f4f4;
+	flex-direction: row;
+	justify-content: right;
+}
+
+footer {
+	background-color: var(--dark-grey);
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-nav {
+	background-color: var(--dark-grey);
+	color: var(--white);
+}
