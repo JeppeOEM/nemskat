@@ -26,7 +26,6 @@ ul {
   background-color: var(--creamy-white);
 }
 
-
 h2,
 h3,
 a {
@@ -36,8 +35,6 @@ a {
 a {
 	text-decoration: none;
 }
-
-
 
 .logo {
 	margin: 0;
