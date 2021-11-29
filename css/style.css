@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
     
 :root {
@@ -18,6 +19,8 @@ body {
 	line-height: 1.6;
 	margin: 0;
 	min-height: 100vh;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 ul {
   margin: 0;
@@ -72,18 +75,25 @@ a {
 	border-radius: var(--rounded);
 }
 
+.index-container {
+	display: flex;
+	justify-content: stretch;
+}
+
 .index-text {
 	padding-bottom: 20rem;
-	padding-left: 20rem;
-	padding-top: 20rem;
-	padding-right: 44rem;
+	padding-left: 17rem;
+	padding-top: 17rem;
+	padding-right: 0rem;
 }
 
 .index-h1 {
-	font-size: 80px;
+	font-size: 75px;
+	line-height: normal;
 	font-weight: bold;
 	font-family: var(--font-1);
 	color: var(--dark-grey);
+	width: 820px;
 }
 
 .forskudsopgørelse {
@@ -105,17 +115,31 @@ a {
 .btn-container {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 2rem;
 }
 .btn {
 	border-radius: var(--rounded);
 	border: 1;
-	width: 17rem;
+	width: 22rem;
 	padding: 0.5rem;
 	background-color: var(--white);
-	font-size: 20px;
+	font-size: 40px;
+	font-weight: bold;
 	font-family: var(--font-1);
 	box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.16);
 	justify-content: center;
+	vertical-align: middle;
+}
+
+.icon-index{
+	vertical-align: middle;
+}
+.index-img {
+    justify-content: center;
+}
+.nemskat-mockup {
+	position: relative;
+	left: -15em;
 }
 
 .header {
