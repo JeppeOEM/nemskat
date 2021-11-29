@@ -5,7 +5,7 @@
     }
     
     :root {
-        --font-1: Arial, Helvetica, sans-serif;
+        --font-1: Arial;
         --creamy-white: #F5F5F2;
         --dark-grey: #3A3244;
         --main-green: #72C27C;
@@ -26,6 +26,35 @@ ul {
   background-color: var(--creamy-white);
 }
 
+.flex-box {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 9em;
+}
+.h1-omos {
+margin-bottom: 1em;
+margin-top: 1.8em;
+font-size: 50px;
+font-family: var(--font-1);
+color: var(--dark-grey);
+}
+
+.kontakt {
+	margin-right: 15em;
+}
+
+.p-omos{
+	font-size: 35px;
+	font-family: var(--font-1);
+	color: var(--dark-grey);
+	border-left: solid;
+	padding-left: 2em;
+}
+.team{
+	margin-left: 2em;
+}
+	
+}
 
 h2,
 h3,
