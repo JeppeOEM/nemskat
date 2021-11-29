@@ -1,17 +1,17 @@
 * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
     
-    :root {
-        --font-1: Arial, Helvetica, sans-serif;
-        --creamy-white: #F5F5F2;
-        --dark-grey: #3A3244;
-        --main-green: #72C27C;
-        --white: #fff;
-		--rounded: 36px;
-    }
+:root {
+    --font-1: Arial, Helvetica, sans-serif;
+    --creamy-white: #F5F5F2;
+    --dark-grey: #3A3244;
+    --main-green: #72C27C;
+    --white: #fff;
+	--rounded: 36px;
+}
 
 body {
 	background-color: var(--creamy-white);
@@ -52,7 +52,6 @@ a {
 	padding: 10px 15px;
 	font-family: var(--font-1);
 	font-weight: bold;
-
 	text-align: center;
 	display: block;
 }
@@ -104,9 +103,7 @@ a {
 .header {
 	padding-top: .5em;
 	padding-bottom: .5em;
-
 	background-color: #f4f4f4;
-
 	flex-direction: row;
 	justify-content: right;
 }
