@@ -20,22 +20,15 @@
 }
 
 body {
-<<<<<<< HEAD
     background-color: var(--creamy-white);
     line-height: 1.6;
     margin: 0;
     min-height: 100vh;
-=======
-	background-color: var(--creamy-white);
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
 }
 
 .index-body {
-	max-width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
->>>>>>> master
 }
 
 ul {
@@ -138,7 +131,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     /* How many colums your elements can fill */
     padding: 60px;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 .box-mobiler {
@@ -206,6 +199,21 @@ a {
     font-family: var(--font-1);
     grid-row-start: 1;
     padding: 20px;
+}
+
+.flere-nyheder {
+    background-color: var(--main-green);
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px 32px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 10rem;
 }
 
 footer {
@@ -276,12 +284,7 @@ a {
 }
 
 .main-nav a {
-<<<<<<< HEAD
     color: var(--dark-grey);
-    font-size: .99em;
-=======
-	color: var(--dark-grey);
->>>>>>> master
 }
 
 .main-nav a:hover {
@@ -327,96 +330,88 @@ a {
 }
 
 .h1-fradrag {
-<<<<<<< HEAD
+    font-family: var(--font-1);
+    color: var(--dark-grey);
+    font-size: 40px;
+}
+
+.h1-nemtogsikkert {
     font-family: var(--font-1);
     color: var(--dark-grey);
     font-size: 50px;
-    margin-top: 10rem;
-}
-
-.scan-text {
+    padding-top: 18rem;
     width: 500px;
-=======
-	font-family: var(--font-1);
-	color: var(--dark-grey);
-	font-size: 40px;
+    margin-right: -5rem;
 }
-.h1-nemtogsikkert {
-	font-family: var(--font-1);
-	color: var(--dark-grey);
-	font-size: 50px;
-	padding-top: 18rem;
-	width: 500px;
-	margin-right: -5rem;
-}
+
 .h1-bekymringer {
-	font-family: var(--font-1);
-	color: var(--dark-grey);
-	font-size: 50px;
-	padding-top: 18rem;
-	width: 500px;
+    font-family: var(--font-1);
+    color: var(--dark-grey);
+    font-size: 50px;
+    padding-top: 18rem;
+    width: 500px;
 }
+
 .scan-img {
-	margin-left: -10rem;
+    margin-left: -10rem;
 }
 
 .scan-text {
-	width: 554px;
-	margin-left: -20rem;
+    width: 554px;
+    margin-left: -20rem;
 }
 
 .funktioner-scan {
-	display: flex;
-	justify-content: space-evenly;
-	height: 880px;
-	width: 1920px;
-	margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 880px;
+    width: 1920px;
+    margin-top: 2rem;
 }
 
 .arrow-right {
-	display: flex;
-	justify-content: end;
-	margin-right: 5rem;
-	margin-top: -15rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+    margin-top: -15rem;
 }
 
 .fradrag-img {
-	margin-left: 10rem;
+    margin-left: 10rem;
 }
 
 .bilogvej {
-	margin-left: 11rem;
+    margin-left: 11rem;
 }
 
 .fradrag-text {
-	width: 600px;
-	margin-right: -10rem;
+    width: 600px;
+    margin-right: -10rem;
 }
 
 .arrow-left {
-	display: flex;
-	justify-content: start;
-	margin-left: 5rem;
-	margin-top: -10rem;
-	margin-bottom: 15rem;
+    display: flex;
+    justify-content: start;
+    margin-left: 5rem;
+    margin-top: -10rem;
+    margin-bottom: 15rem;
 }
 
 .funktioner-fradrag {
-	display: flex;
-	justify-content: space-evenly;
-	margin-top: 20rem;
-	height: 1080;
-	width: 1920px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20rem;
+    height: 1080;
+    width: 1920px;
 }
 
 .funktioner-opgorelse {
-	display: flex;
-	justify-content: space-evenly;
-	margin-top: 20rem;
-	height: 1080;
-	width: 1920px;
-	margin-bottom: 8rem;
->>>>>>> master
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20rem;
+    height: 1080;
+    width: 1920px;
+    margin-bottom: 8rem;
 }
 
 .btn-container {
@@ -439,7 +434,6 @@ a {
     vertical-align: middle;
 }
 
-<<<<<<< HEAD
 .icon-index {
     vertical-align: middle;
 }
@@ -447,24 +441,6 @@ a {
 .index-img {
     justify-content: center;
 }
-=======
-.header {
-	padding-top: .5em;
-	padding-bottom: .5em;
-	background-color: #f4f4f4;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	
-}
-
-.nemlogo{
-	padding-left: 30px;
-	margin: 0;
-	align-self: center;
-	justify-content: left;
-
->>>>>>> master
 
 .nemskat-mockup {
     position: relative;
@@ -479,7 +455,6 @@ a {
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .funktioner-scan {
     display: flex;
     justify-content: space-evenly;
@@ -503,8 +478,6 @@ a {
     width: 1920px;
     border-bottom: solid var(--dark-grey);
 }
-=======
->>>>>>> master
 
 footer {
     background-color: var(--dark-grey);
@@ -513,18 +486,6 @@ footer {
 }
 
 .footer-nav {
-<<<<<<< HEAD
     background-color: var(--dark-grey);
     color: var(--white);
-=======
-	background-color: var(--dark-grey);
-	color: var(--white);
-}
-
-.footer2{
-	background-color: #72C27C;
-	display: block;
-	text-align: center;
-	padding: 27px;
->>>>>>> master
 }
