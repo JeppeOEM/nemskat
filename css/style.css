@@ -736,10 +736,8 @@ footer {
     margin-top: 15px;
     grid-column:3/3;
     grid-row:1/1;
-    align-items: center;
     margin-left: auto;
     
-    display: block;
 }
 
 
@@ -753,3 +751,37 @@ footer {
     text-align: center;
  
 }
+
+.footer2{
+	background-color: #72C27C;
+	display: block;
+	text-align: center;
+	padding: 27px;
+}
+
+
+.nested{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.nested2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-flow: dense;
+
+}
+
+.nested2 > img {
+padding: 10px;
+}
+
+
+.leftmargin{
+    padding-left: 100px;
+}
+.rightmargin{
+    padding-right: 100px;
+}
+
