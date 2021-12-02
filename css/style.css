@@ -1,9 +1,4 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
 
-}
     * {
         margin: 0px;
         padding: 0px;
@@ -18,13 +13,17 @@
         --white: #fff;
         --rounded: 36px;
     }
+
     
     body {
         background-color: var(--creamy-white);
         line-height: 1.6;
         margin: 0;
         min-height: 100vh;
+        max-width: 100%;
+        overflow-x: hidden;
     }
+
     
     ul {
         margin: 0;
@@ -123,9 +122,8 @@
         background-color: var(--creamy-white);
         display: grid;
         /* This display enables the */
-        grid-template-columns: repeat(4, 1fr);
-        /* How many colums your elements can fill */
-        grid-template-columns: repeat(4, 1fr);
+
+        grid-template-columns: repeat(3, 1fr);
         /* How many rows the elements can fill */
         /* The area in which you define where your elements are placed, defined by a given name as seen below */
         padding: 60px;
@@ -209,23 +207,7 @@
         background-color: var(--dark-grey);
         color: var(--white);
     }
-:root {
-    --font-1: Arial, Helvetica, sans-serif;
-    --creamy-white: #F5F5F2;
-    --dark-grey: #3A3244;
-    --main-green: #72C27C;
-    --white: #fff;
-	--rounded: 36px;
-}
 
-body {
-	background-color: var(--creamy-white);
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
-	max-width: 100%;
-    overflow-x: hidden;
-}
 ul {
   margin: 0;
   padding: 0;
@@ -357,16 +339,12 @@ a {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	background-color: #f4f4f4;
-<<<<<<< HEAD
 	display: flex;
-=======
->>>>>>> master
 	flex-direction: row;
 	justify-content: space-between;
 	
 }
 
-<<<<<<< HEAD
 .nemlogo{
 	padding-left: 30px;
 	margin: 0;
@@ -379,39 +357,82 @@ a {
 .link-p {
 	font-size: 27px;
 }
+/*//////////////////////// FOOTER //////////////////////*/
 
-=======
-.funktioner-scan {
-	display: flex;
-	justify-content: space-evenly;
-	height: 880px;
-	width: 1920px;
-	border-bottom: solid var(--dark-grey);
+.footerbox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
 }
-
-.funktioner-fradrag {
-	display: flex;
-	justify-content: space-evenly;
-	height: 1080;
-	width: 1920px;
-	border-bottom: solid var(--dark-grey);
-}
-
-.funktioner-opgorelse {
-	display: flex;
-	justify-content: space-evenly;
-	height: 1080;
-	width: 1920px;
-	border-bottom: solid var(--dark-grey);
-}
->>>>>>> master
 
 footer {
 	background-color: var(--dark-grey);
-	grid-template-columns: 1fr 1fr 1fr
+    align-items: center;
+    line-height: 2.6;
+	
 }
 
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    flex-wrap: wrap;
+
+}
+
+
+.footlink{
+    font-size: 22px;
+   
+}
+
+.footlink-p{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.footer-some{
+    margin-left: 50px;
+    margin-top: 15px;
+    grid-column:3/3;
+    grid-row:1/1;
+}
+
+
 .footer-nav {
+ 
+    grid-column:2/2;
+    grid-row:1/1;
+
 	background-color: var(--dark-grey);
 	color: var(--white);
+    text-align: center;
+ 
 }
+
+
+.nested{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.nested2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-flow: dense;
+
+}
+
+.nested2 > img {
+padding: 10px;
+}
+
+
+.leftmargin{
+    padding-left: 100px;
+}
+.rightmargin{
+    padding-right: 100px;
+}
+
